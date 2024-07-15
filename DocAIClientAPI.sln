@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocAIClientAPI", "DocAIClientAPI\DocAIClientAPI.csproj", "{799ACC95-74DF-4145-B204-1A7169C31BDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{2FB19004-A50D-4873-8A5D-DD5F233DF805}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocAI.Application", "DocAI.Application\DocAI.Application.csproj", "{015CAABE-1863-46CF-A094-9DB3D11E7D84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{799ACC95-74DF-4145-B204-1A7169C31BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{799ACC95-74DF-4145-B204-1A7169C31BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{799ACC95-74DF-4145-B204-1A7169C31BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{799ACC95-74DF-4145-B204-1A7169C31BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{015CAABE-1863-46CF-A094-9DB3D11E7D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{015CAABE-1863-46CF-A094-9DB3D11E7D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{015CAABE-1863-46CF-A094-9DB3D11E7D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{015CAABE-1863-46CF-A094-9DB3D11E7D84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{015CAABE-1863-46CF-A094-9DB3D11E7D84} = {2FB19004-A50D-4873-8A5D-DD5F233DF805}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BCD7602-4B22-4051-862D-4E0D213777A6}
+	EndGlobalSection
+EndGlobal
